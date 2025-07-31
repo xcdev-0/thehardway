@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-
+# set encryption key
 ENCRYPTION_KEY=$(head -c 32 /dev/urandom | base64)
 
 cat > encryption-config.yaml <<EOF
