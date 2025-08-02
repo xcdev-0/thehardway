@@ -2,6 +2,7 @@
 
 set -e
 
+# this script should be run on all control plane nodes
 # --- Configuration ---
 ETCD_VERSION="v3.5.9"
 
