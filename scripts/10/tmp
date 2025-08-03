@@ -1,0 +1,8 @@
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+192.168.64.4 controlplane01
+192.168.64.5 controlplane02
+192.168.64.6 loadbalancer
+192.168.64.7 node01
+192.168.64.8 node02
